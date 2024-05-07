@@ -1,0 +1,50 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: PatientId
+      dataType: Guid
+      label: Patient
+      column: 2
+      dataSource: Patient
+    - fieldName: VisitId
+      dataType: Guid
+      label: Visit
+      column: 2
+      dataSource: Visit
+    - fieldName: DispenseId
+      dataType: Guid
+      label: Dispense
+      column: 2
+      dataSource: Dispense
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 2
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated On
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: PatientId
+    dataType: Guid
+    label: Patient
+    column: 2
+    dataSource: Patient
+  - fieldName: VisitId
+    dataType: Guid
+    label: Visit
+    column: 2
+    dataSource: Visit

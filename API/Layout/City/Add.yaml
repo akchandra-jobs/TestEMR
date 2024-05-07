@@ -1,0 +1,9 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    label: Name
+    column: 2

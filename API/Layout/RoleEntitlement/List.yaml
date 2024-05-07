@@ -1,0 +1,39 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: RoleId
+      dataType: Guid
+      label: Role
+      column: 4
+      dataSource: Role
+  cardDetail:
+    fields:
+    - fieldName: EntityId
+      dataType: Guid
+      label: Entity
+      column: 4
+    - fieldName: Entitlement
+      dataType: Numeric
+      label: Entitlement
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 4
+filter:
+  fields:
+  - fieldName: RoleId
+    dataType: Guid
+    label: Role
+    column: 4
+    dataSource: Role
+  - fieldName: EntityId
+    dataType: Guid
+    label: Entity
+    column: 4
+  - fieldName: Entitlement
+    dataType: Numeric
+    label: Entitlement
+    column: 4

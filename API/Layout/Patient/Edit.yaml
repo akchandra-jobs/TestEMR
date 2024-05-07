@@ -1,0 +1,149 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+  - fieldName: TitleId
+    dataType: Guid
+    required: false
+    label: Title
+    column: 2
+    dataSource: Title
+  - fieldName: Name
+    dataType: String
+    required: false
+    label: Name
+    column: 2
+    dataSource: Title
+  - fieldName: FirstName
+    dataType: String
+    required: false
+    label: First Name
+    column: 3
+  - fieldName: MiddleName
+    dataType: String
+    required: false
+    label: Middle Name
+    column: 2
+  - fieldName: LastName
+    dataType: String
+    required: false
+    label: Last Name
+    column: 2
+  - fieldName: GenderId
+    dataType: Guid
+    required: false
+    label: Gender
+    column: 2
+    dataSource: Gender
+  - fieldName: Dob
+    dataType: DateTime
+    required: false
+    label: Date of Birth
+    column: 2
+  - fieldName: Mobile
+    dataType: String
+    required: false
+    label: Mobile
+    column: 2
+  - fieldName: Email
+    dataType: String
+    required: false
+    label: Email
+    column: 2
+- name: Patient address
+  type: section
+  column: 4
+  fields:
+  - fieldName: AddressLine1
+    dataType: String
+    required: false
+    length: 255
+    label: Address Line 1
+    column: 2
+  - fieldName: AddressLine2
+    dataType: String
+    required: false
+    length: 255
+    label: Address Line 2
+    column: 2
+  - fieldName: StateId
+    dataType: Guid
+    required: false
+    label: State
+    column: 2
+    dataSource: State
+  - fieldName: CityId
+    dataType: Guid
+    required: false
+    label: City
+    column: 2
+    dataSource: City
+  - fieldName: PostalCode
+    dataType: String
+    required: false
+    length: 20
+    label: Postal Code
+    column: 2
+- name: Additional information
+  type: section
+  column: 4
+  fields:
+  - fieldName: ReferredBy
+    dataType: guid
+    required: false
+    label: Referred By
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: DateTime
+    label: Created On
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: Guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated On
+    column: 2
+    dataSource: Doctor
+  - fieldName: BloodGroup
+    dataType: Guid
+    required: false
+    label: Blood Group
+    column: 2
+    dataSource: BloodGroup
+  - fieldName: FileNumber
+    dataType: String
+    required: false
+    label: File Number
+    column: 2
+  - fieldName: AlternateMobile
+    dataType: String
+    required: false
+    label: Alternate Mobile
+    column: 2
+  - fieldName: IsVip
+    dataType: Boolean
+    required: false
+    label: Is VIP
+    column: 2
+  - fieldName: IsConfidential
+    dataType: Boolean
+    required: false
+    label: Is Confidential
+    column: 2
+  - fieldName: PatientNotes
+    dataType: guid
+    required: false
+    label: Patient Notes
+    column: 4
+    dataSource: PatientNotes

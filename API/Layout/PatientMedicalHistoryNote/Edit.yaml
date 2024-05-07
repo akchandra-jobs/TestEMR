@@ -1,0 +1,21 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: PatientId
+    dataType: Guid
+    required: false
+    label: Patient
+    column: 2
+    dataSource: Patient
+  - fieldName: Notes
+    dataType: String
+    required: false
+    label: Notes
+    column: 4

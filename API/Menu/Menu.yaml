@@ -1,0 +1,143 @@
+- name: User Management
+  icon: fas fa-users
+  items:
+    - name: Users
+      description: Manage system users.
+      route: user
+      icon: fas fa-user
+    - name: Roles
+      description: Manage user roles and permissions.
+      route: role
+      icon: fas fa-user-lock
+    - name: Role Entitlements
+      description: Manage role entitlements.
+      route: roleEntitlement
+      icon: fas fa-key
+
+- name: Patient Management
+  icon: fas fa-user-md
+  items:
+    - name: Patients
+      description: Manage patient records.
+      route: patient
+      icon: fas fa-procedures
+    - name: Doctor
+      description: Manage doctor-related information  and tasks.
+      route: doctor
+      icon: fas fa-stethoscope
+    - name: Visits
+      description: Manage patient visits.
+      route: visit
+      icon: fas fa-hospital-user
+    - name: Appointments
+      description: Schedule and manage appointments.
+      route: appointment
+      icon: fas fa-calendar-alt
+    - name: Invoices
+      description: Manage patient invoices.
+      route: invoice
+      icon: fas fa-file-invoice-dollar
+
+- name: Medical Records
+  icon: fas fa-notes-medical
+  items:
+    - name: Patient Notes
+      description: Manage patient medical notes.
+      route: patientNotes
+      icon: fas fa-sticky-note
+    - name: Medical History Note
+      description: Manage patient medical history note.
+      route: patientMedicalHistoryNote
+      icon: fas fa-file-medical-alt
+    - name: Diagnoses
+      description: Manage medical diagnoses.
+      route: diagnosis
+      icon: fas fa-diagnoses
+    - name: Procedures
+      description: Manage medical procedures.
+      route: procedure
+      icon: fas fa-procedures
+
+- name: Inventory Management
+  icon: fas fa-clipboard-list
+  items:
+    - name: Products
+      description: Manage inventory products.
+      route: product
+      icon: fas fa-shopping-basket
+    - name: Stock Management
+      description: Manage inventory stock.
+      route: stockAdjustment
+      icon: fas fa-boxes
+    - name: Purchase Orders
+      description: Manage purchase orders.
+      route: purchaseOrder
+      icon: fas fa-truck-loading
+    - name: Requisitions
+      description: Manage stock requisitions.
+      route: requisition
+      icon: fas fa-clipboard-check
+
+- name: Finance Management
+  icon: fas fa-money-bill-wave
+  items:
+    - name: Payments
+      description: Manage payments and settlements.
+      route: payment
+      icon: fas fa-money-check-alt
+    - name: Price Lists
+      description: Manage pricing lists.
+      route: priceList
+      icon: fas fa-list-alt
+    - name: Account Settlements
+      description: Manage account settlements.
+      route: accountSettlement
+      icon: fas fa-file-invoice-dollar
+
+- name: Pharmacy Management
+  icon: fas fa-prescription-bottle-alt
+  items:
+    - name: Dispensing
+      description: Manage medication dispensing.
+      route: dispense
+      icon: fas fa-pills
+    - name: Pharmacy Queues
+      description: Manage pharmacy queues.
+      route: patientPharmacyQueue
+      icon: fas fa-prescription
+    - name: Drug Lists
+      description: Manage drug lists and medications.
+      route: drugListItems
+      icon: fas fa-pills
+    - name: Formulations
+      description: Manage medication formulations.
+      route: formulation
+      icon: fas fa-flask
+    - name: State
+      description: State.
+      route: state
+      icon: fas fa-flask
+    - name: City
+      description: City.
+      route: city
+      icon: fas fa-flask
+    - name: Blood Group
+      description: BloodGroup.
+      route: bloodGroup
+      icon: fas fa-flask
+    - name: Specialisation
+      description: Specialisation.
+      route: specialisation
+      icon: fas fa-flask
+    - name: Qualification
+      description: Qualification.
+      route: qualification
+      icon: fas fa-flask
+    - name: Title
+      description: Manage doctor, patient titles.
+      route: title
+      icon: fas fa-id-card
+    - name: Gender
+      description: Manage doctor, patient genders.
+      route: /gender
+      icon: fas fa-venus-mars

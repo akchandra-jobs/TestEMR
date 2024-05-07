@@ -1,0 +1,20 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: String
+    required: false
+    label: Code
+    column: 2
+  - fieldName: Notes
+    dataType: String
+    required: false
+    label: Notes
+    column: 4

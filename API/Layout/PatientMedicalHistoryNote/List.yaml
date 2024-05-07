@@ -1,0 +1,25 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: Notes
+      dataType: String
+      label: Notes
+      column: 2
+    - fieldName: PatientId
+      dataType: Guid
+      label: Patient
+      column: 2
+      dataSource: Patient
+  cardStatus: {}
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2

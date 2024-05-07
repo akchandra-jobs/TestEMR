@@ -1,0 +1,31 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: false
+    label: Name
+    column: 2
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: Guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

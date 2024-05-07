@@ -1,0 +1,33 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: AdjustmentDate
+      dataType: DateTime
+      label: Adjustment Date
+      column: 2
+    - fieldName: StockAdjustmentItem
+      dataType: Guid
+      label: Stock Adjustment Item
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: Status
+      dataType: Numeric
+      label: Status
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: AdjustmentDate
+    dataType: DateTime
+    label: Adjustment Date
+    column: 2

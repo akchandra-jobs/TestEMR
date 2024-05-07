@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: Sequence
+      dataType: Numeric
+      label: Sequence
+      column: 2
+    - fieldName: Favourite
+      dataType: Boolean
+      label: Favourite
+      column: 2
+    - fieldName: IsDeleted
+      dataType: Boolean
+      label: Is Deleted
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: FemaleOnly
+      dataType: Boolean
+      label: Female Only
+      column: 2
+    - fieldName: NoKnownProcedure
+      dataType: Boolean
+      label: No Known Procedure
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2

@@ -1,0 +1,49 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: Code
+      dataType: String
+      label: Code
+      column: 2
+    - fieldName: AppointmentStartDate
+      dataType: DateTime
+      label: Appointment Start Date
+      column: 2
+    - fieldName: AppointmentEndDate
+      dataType: DateTime
+      label: Appointment End Date
+      column: 2
+    - fieldName: Reason
+      dataType: String
+      label: Reason
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: AppointmentStatus
+      dataType: Numeric
+      label: Appointment Status
+      column: 2
+    - fieldName: Priority
+      dataType: Boolean
+      label: Priority
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: String
+    label: Code
+    column: 2
+  - fieldName: AppointmentStartDate
+    dataType: DateTime
+    label: Appointment Start Date
+    column: 2

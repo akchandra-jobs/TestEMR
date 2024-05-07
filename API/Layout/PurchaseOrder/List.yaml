@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: PurchaseOrderDate
+      dataType: DateTime
+      label: Purchase Order Date
+      column: 2
+    - fieldName: ExpectedDeliveryDate
+      dataType: DateTime
+      label: Expected Delivery Date
+      column: 
+  cardStatus:
+    fields:
+    - fieldName: ReceivedStatus
+      dataType: Numeric
+      label: Received Status
+      column: 2
+    - fieldName: CompletedDate
+      dataType: DateTime
+      label: Completed Date
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: PurchaseOrderDate
+    dataType: DateTime
+    label: Purchase Order Date
+    column: 2

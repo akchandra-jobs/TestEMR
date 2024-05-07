@@ -1,0 +1,42 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: AppointmentId
+    dataType: Guid
+    required: false
+    label: Appointment
+    column: 2
+    dataSource: Appointment
+  - fieldName: InvoiceId
+    dataType: Guid
+    required: false
+    label: Invoice
+    column: 2
+    dataSource: Invoice
+  - fieldName: Amount
+    dataType: Numeric
+    required: false
+    label: Amount
+    column: 2
+  - fieldName: Currency
+    dataType: Guid
+    required: false
+    label: Currency
+    column: 2
+  - fieldName: RazorPayStatus
+    dataType: String
+    required: false
+    label: RazorPay Status
+    column: 2
+  - fieldName: CreatedDate
+    dataType: DateTime
+    required: false
+    label: Created Date
+    column: 2

@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: PriceListBaseType
+      dataType: Numeric
+      label: Price List Base Type
+      column: 2
+    - fieldName: PriceListType
+      dataType: Numeric
+      label: Price List Type
+      column: 2
+    - fieldName: PricelistStatus
+      dataType: Numeric
+      label: Pricelist Status
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: StartDate
+      dataType: DateTime
+      label: Start Date
+      column: 2
+    - fieldName: EndDate
+      dataType: DateTime
+      label: End Date
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: PriceListBaseType
+    dataType: Numeric
+    label: Price List Base Type
+    column: 2
+  - fieldName: PriceListType
+    dataType: Numeric
+    label: Price List Type
+    column: 2

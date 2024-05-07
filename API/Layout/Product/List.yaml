@@ -1,0 +1,46 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Description
+      dataType: String
+      label: Description
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: ProductType
+      dataType: Numeric
+      label: Product Type
+      column: 2
+    - fieldName: Formulation
+      dataType: Guid
+      label: Formulation
+      column: 2
+      dataSource: Formulation
+    - fieldName: SellingPrice
+      dataType: Numeric
+      label: Selling Price
+      column: 2
+    - fieldName: GstPercentage
+      dataType: Numeric
+      label: GST Percentage
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: Status
+      dataType: Boolean
+      label: Status
+      column: 2
+    - fieldName: Qoh
+      dataType: Numeric
+      label: QOH
+      column: 2
+filter:
+  fields:
+  - fieldName: Description
+    dataType: String
+    label: Description
+    column: 2
+  - fieldName: ProductType
+    dataType: Numeric
+    label: Product Type
+    column: 2

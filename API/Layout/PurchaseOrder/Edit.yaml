@@ -1,0 +1,30 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: PurchaseOrderDate
+    dataType: DateTime
+    required: false
+    label: Purchase Order Date
+    column: 2
+  - fieldName: LocationId
+    dataType: Guid
+    required: false
+    label: Location
+    column: 2
+  - fieldName: ExpectedDeliveryDate
+    dataType: DateTime
+    required: false
+    label: Expected Delivery Date
+    column: 2
+  - fieldName: ReceivedStatus
+    dataType: Numeric
+    required: false
+    label: Received Status
+    column: 4

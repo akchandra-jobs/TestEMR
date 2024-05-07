@@ -1,0 +1,66 @@
+- name: Invoice details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: string
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: VisitId
+    dataType: guid
+    required: false
+    label: Visit
+    column: 2
+    dataSource: Visit
+  - fieldName: PatientId
+    dataType: guid
+    required: false
+    label: Patient
+    column: 2
+    dataSource: Patient
+- name: Financial details
+  type: section
+  column: 4
+  fields:
+  - fieldName: GrossAmount
+    dataType: numeric
+    required: false
+    label: Gross Amount
+    column: 2
+  - fieldName: NetAmount
+    dataType: numeric
+    required: false
+    label: Net Amount
+    column: 2
+  - fieldName: DiscountAmount
+    dataType: numeric
+    required: false
+    label: Discount Amount
+    column: 2
+  - fieldName: DueAmount
+    dataType: numeric
+    required: false
+    label: Due Amount
+    column: 2
+  - fieldName: CoPayAmount
+    dataType: numeric
+    required: false
+    label: Co-Pay Amount
+    column: 2
+  - fieldName: PayorAmount
+    dataType: numeric
+    required: false
+    label: Payor Amount
+    column: 2
+  - fieldName: ReferenceNumber
+    dataType: string
+    required: false
+    label: Reference Number
+    column: 2
+  - fieldName: PayorIsSame
+    dataType: boolean
+    required: false
+    label: Payor Is Same
+    column: 2

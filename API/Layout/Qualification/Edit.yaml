@@ -1,0 +1,13 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Code
+    dataType: String
+    label: Code
+    column: 2
+  - fieldName: Name
+    dataType: String
+    required: true
+    label: Name
+    column: 2

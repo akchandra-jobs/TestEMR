@@ -1,0 +1,42 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: RoleId
+    dataType: Guid
+    required: true
+    label: Role
+    column: 2
+    dataSource: Role
+  - fieldName: EntityId
+    dataType: Guid
+    required: false
+    label: Entity
+    column: 2
+  - fieldName: Entitlement
+    dataType: Numeric
+    required: false
+    label: Entitlement
+    column: 2
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedBy
+    dataType: Guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User

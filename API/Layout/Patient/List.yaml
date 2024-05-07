@@ -1,0 +1,50 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: FirstName
+      dataType: String
+      required: false
+      label: First Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: Gender
+      dataType: guid
+      label: Gender
+      column: 2
+      dataSource: Gender
+    - fieldName: Dob
+      dataType: DateTime
+      label: Date of Birth
+      column: 2
+    - fieldName: Mobile
+      dataType: String
+      label: Mobile
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: RegisteredOn
+      dataType: DateTime
+      label: Registered On
+      column: 2
+    - fieldName: ReferredBy
+      dataType: guid
+      required: false
+      label: Referred By
+      column: 2
+filter:
+  fields:
+  - fieldName: FirstName
+    dataType: String
+    required: false
+    label: First Name
+    column: 2
+  - fieldName: Gender
+    dataType: guid
+    label: Gender
+    column: 2
+    dataSource: Gender
+  - fieldName: Mobile
+    dataType: String
+    label: Mobile
+    column: 2

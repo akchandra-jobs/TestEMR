@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: VisitStartDate
+      dataType: DateTime
+      label: Visit Start Date
+      column: 2
+    - fieldName: VisitCloseDate
+      dataType: DateTime
+      label: Visit Close Date
+      column: 2
+    - fieldName: VisitAttending
+      dataType: Boolean
+      label: Visit Attending
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: PreviousVisitDate
+      dataType: DateTime
+      label: Previous Visit Date
+      column: 2
+    - fieldName: PrescriptionConverted
+      dataType: Boolean
+      label: Prescription Converted
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: VisitStartDate
+    dataType: DateTime
+    label: Visit Start Date
+    column: 2
+  - fieldName: VisitAttending
+    dataType: Boolean
+    label: Visit Attending
+    column: 2

@@ -1,0 +1,50 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: FirstName
+      dataType: String
+      label: First Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: TitleId
+      dataType: Guid
+      required: false
+      label: Title
+      column: 2
+      dataSource: Title
+    - fieldName: MiddleName
+      dataType: string
+      required: false
+      label: Middle Name
+      column: 2
+    - fieldName: LastName
+      dataType: String
+      label: Last Name
+      column: 2
+    - fieldName: MedicalRegistrationNumber
+      dataType: string
+      required: false
+      label: Medical Registration Number
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: DateOfBirth
+      dataType: datetime
+      label: Date of Birth
+      column: 2
+    - fieldName: Age
+      dataType: numeric
+      label: Age
+      column: 2
+filter:
+  fields:
+  - fieldName: MedicalRegistrationNumber
+    dataType: string
+    required: false
+    label: Medical Registration Number
+    column: 2
+  - fieldName: FirstName
+    dataType: String
+    label: First Name
+    column: 2

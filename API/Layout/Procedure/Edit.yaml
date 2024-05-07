@@ -1,0 +1,41 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Sequence
+    dataType: Numeric
+    required: true
+    label: Sequence
+    column: 2
+  - fieldName: Favourite
+    dataType: Boolean
+    required: false
+    label: Favourite
+    column: 2
+  - fieldName: IsDeleted
+    dataType: Boolean
+    required: false
+    label: Is Deleted
+    column: 2
+  - fieldName: FemaleOnly
+    dataType: Boolean
+    required: false
+    label: Female Only
+    column: 2
+  - fieldName: NoKnownProcedure
+    dataType: Boolean
+    required: false
+    label: No Known Procedure
+    column: 2
+  - fieldName: ProductId
+    dataType: Guid
+    required: false
+    label: Product
+    column: 2
+    dataSource: Product

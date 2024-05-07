@@ -1,0 +1,126 @@
+- name: Appointment details
+  type: section
+  column: 2
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: false
+    label: Name
+    column: 2
+  - fieldName: Code
+    dataType: String
+    required: false
+    label: Code
+    column: 2
+  - fieldName: Patient
+    dataType: Guid
+    required: false
+    label: Patient
+    column: 2
+    dataSource: Patient
+  - fieldName: Invoice
+    dataType: Guid
+    required: false
+    label: Invoice
+    column: 2
+    dataSource: Invoice
+  - fieldName: Visit
+    dataType: Guid
+    required: false
+    label: Visit
+    column: 4
+    dataSource: Visit
+  - fieldName: AppointmentServices
+    dataType: Guid
+    required: false
+    label: Appointment Services
+    column: 4
+  - fieldName: AppointmentStartDate
+    dataType: DateTime
+    required: false
+    label: Appointment Start Date
+    column: 4
+  - fieldName: AppointmentEndDate
+    dataType: DateTime
+    required: false
+    label: Appointment End Date
+    column: 4
+  - fieldName: Reason
+    dataType: String
+    required: false
+    label: Reason
+    column: 4
+- name: Additional details
+  type: section
+  column: 2
+  fields:
+  - fieldName: AppointmentType
+    dataType: Numeric
+    required: false
+    label: Appointment Type
+    column: 2
+  - fieldName: Priority
+    dataType: Boolean
+    required: false
+    label: Priority
+    column: 2
+  - fieldName: AppointmentStatus
+    dataType: Numeric
+    required: false
+    label: Appointment Status
+    column: 2
+  - fieldName: PatientArrivalTime
+    dataType: DateTime
+    required: false
+    label: Patient Arrival Time
+    column: 2
+  - fieldName: FromVisit
+    dataType: Boolean
+    required: false
+    label: From Visit
+    column: 2
+  - fieldName: PaymentLinkAmount
+    dataType: Numeric
+    required: false
+    label: Payment Link Amount
+    column: 2
+  - fieldName: VideoLink
+    dataType: String
+    required: false
+    label: Video Link
+    column: 2
+  - fieldName: PaymentLink
+    dataType: String
+    required: false
+    label: Payment Link
+    column: 2
+  - fieldName: GeneralStatus
+    dataType: Numeric
+    required: false
+    label: General Status
+    column: 2
+  - fieldName: LocationId
+    dataType: Guid
+    required: false
+    label: Location
+    column: 2
+  - fieldName: GoogleEventId
+    dataType: String
+    required: false
+    label: Google Event
+    column: 4
+  - fieldName: GeneratePaymentLink
+    dataType: Boolean
+    required: false
+    label: Generate Payment Link
+    column: 4
+  - fieldName: CancelReason
+    dataType: String
+    required: false
+    label: Cancel Reason
+    column: 4
+  - fieldName: AppointmentArrivalStatus
+    dataType: Numeric
+    required: false
+    label: Appointment Arrival Status
+    column: 4

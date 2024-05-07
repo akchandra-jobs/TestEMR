@@ -1,0 +1,20 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Age
+    dataType: Numeric
+    required: false
+    label: Age
+    column: 2
+  - fieldName: CountryId
+    dataType: Guid
+    required: false
+    label: Country
+    column: 2

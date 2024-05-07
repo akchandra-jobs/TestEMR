@@ -1,0 +1,72 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: PricelistStatus
+    dataType: Numeric
+    required: false
+    label: Pricelist Status
+    column: 2
+  - fieldName: StartDate
+    dataType: DateTime
+    required: false
+    label: Start Date
+    column: 2
+  - fieldName: EndDate
+    dataType: DateTime
+    required: false
+    label: End Date
+    column: 2
+  - fieldName: Notes
+    dataType: String
+    required: false
+    label: Notes
+    column: 2
+  - fieldName: CreatedBy
+    dataType: Guid
+    required: false
+    label: Created By
+    column: 2
+    dataSource: User
+  - fieldName: CreatedOn
+    dataType: DateTime
+    required: false
+    label: Created On
+    column: 2
+  - fieldName: UpdatedBy
+    dataType: Guid
+    required: false
+    label: Updated By
+    column: 2
+    dataSource: User
+  - fieldName: UpdatedOn
+    dataType: DateTime
+    required: false
+    label: Updated On
+    column: 2
+  - fieldName: Enable
+    dataType: Boolean
+    required: false
+    label: Enable
+    column: 2
+  - fieldName: PriceListComponents
+    dataType: Guid
+    required: false
+    label: Price List Components
+    column: 2
+  - fieldName: PriceListItems
+    dataType: Guid
+    required: false
+    label: Price List Items
+    column: 2
+  - fieldName: PriceListVersions
+    dataType: Guid
+    required: false
+    label: Price List Versions
+    column: 2

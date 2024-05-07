@@ -1,0 +1,44 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: PatientId
+      dataType: Guid
+      label: Patient
+      column: 2
+      dataSource: Patient
+    - fieldName: InvoiceId
+      dataType: Guid
+      label: Invoice
+      column: 2
+      dataSource: Invoice
+    - fieldName: PaymentModeId
+      dataType: Guid
+      label: Payment Mode
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: PaymentDate
+      dataType: DateTime
+      label: Payment Date
+      column: 2
+    - fieldName: Amount
+      dataType: Numeric
+      label: Amount
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: PatientId
+    dataType: Guid
+    label: Patient
+    column: 2
+    dataSource: Patient

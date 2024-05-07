@@ -1,0 +1,53 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: VisitId
+      dataType: Guid
+      label: Visit
+      column: 2
+      dataSource: Visit
+    - fieldName: DispenseNo
+      dataType: String
+      label: Dispense No
+      column: 2
+    - fieldName: InvoiceId
+      dataType: Guid
+      label: Invoice
+      column: 2
+      dataSource: Invoice
+    - fieldName: Closed
+      dataType: Boolean
+      label: Closed
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 2
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated On
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: VisitId
+    dataType: Guid
+    label: Visit
+    column: 2
+    dataSource: Visit
+  - fieldName: InvoiceId
+    dataType: Guid
+    label: Invoice
+    column: 2
+    dataSource: Invoice

@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: RequisitionDate
+      dataType: DateTime
+      label: Requisition Date
+      column: 2
+    - fieldName: StatusReason
+      dataType: String
+      label: Status Reason
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: CreatedOn
+      dataType: DateTime
+      label: Created On
+      column: 2
+    - fieldName: UpdatedOn
+      dataType: DateTime
+      label: Updated On
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: RequisitionDate
+    dataType: DateTime
+    label: Requisition Date
+    column: 2

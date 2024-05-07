@@ -1,0 +1,45 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: AppointmentId
+      dataType: Guid
+      label: Appointment
+      column: 2
+    - fieldName: InvoiceId
+      dataType: Guid
+      label: Invoice
+      column: 2
+    - fieldName: Amount
+      dataType: Numeric
+      label: Amount
+      column: 2
+    - fieldName: RazorPayStatus
+      dataType: String
+      label: RazorPay Status
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: RazorPayTransferId
+      dataType: String
+      label: RazorPay Transfer
+      column: 2
+    - fieldName: RazorPaySourceAccountId
+      dataType: String
+      label: RazorPay Source Account
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: Amount
+    dataType: Numeric
+    label: Amount
+    column: 2

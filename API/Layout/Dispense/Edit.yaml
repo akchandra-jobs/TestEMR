@@ -1,0 +1,32 @@
+- name: 
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: false
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: VisitId
+    dataType: Guid
+    required: false
+    label: Visit
+    column: 2
+    dataSource: Visit
+  - fieldName: DispenseNo
+    dataType: String
+    required: false
+    label: Dispense No
+    column: 2
+  - fieldName: InvoiceId
+    dataType: Guid
+    required: false
+    label: Invoice
+    column: 2
+    dataSource: Invoice
+  - fieldName: Closed
+    dataType: Boolean
+    required: false
+    label: Closed
+    column: 2

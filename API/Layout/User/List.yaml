@@ -1,0 +1,37 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 4
+  cardDetail:
+    fields:
+    - fieldName: EmailId
+      dataType: String
+      label: Email
+      column: 2
+    - fieldName: UserName
+      dataType: String
+      label: User Name
+      column: 4
+  cardStatus:
+    fields:
+    - fieldName: IsSuperAdmin
+      dataType: Boolean
+      label: Is Super Admin
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 4
+  - fieldName: EmailId
+    dataType: String
+    label: Email
+    column: 4
+  - fieldName: UserName
+    dataType: String
+    label: User Name
+    column: 4

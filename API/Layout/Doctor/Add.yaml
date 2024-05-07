@@ -1,0 +1,116 @@
+- name: Personal details
+  type: section
+  column: 4
+  fields:
+  - fieldName: MedicalRegistrationNumber
+    dataType: string
+    required: true
+    label: Medical Registration Number
+    column: 2
+  - fieldName: TitleId
+    dataType: Guid
+    required: false
+    label: Title
+    column: 2
+    dataSource: Title
+  - fieldName: Name
+    dataType: string
+    required: true
+    label: Name
+    column: 2
+  - fieldName: FirstName
+    dataType: string
+    required: true
+    label: First Name
+    column: 2
+  - fieldName: MiddleName
+    dataType: string
+    required: false
+    label: Middle Name
+    column: 2
+  - fieldName: LastName
+    dataType: string
+    required: false
+    label: Last Name
+    column: 2
+  - fieldName: GenderId
+    dataType: guid
+    required: false
+    label: Gender
+    column: 2
+    dataSource: Gender
+  - fieldName: DateOfBirth
+    dataType: datetime
+    required: false
+    label: Date of Birth
+    column: 2
+  - fieldName: DobIsApproximate
+    dataType: boolean
+    required: false
+    label: DOB is Approximate
+    column: 2
+- name: Doctor address
+  type: section
+  column: 4
+  fields:
+  - fieldName: AddressLine1
+    dataType: String
+    required: false
+    length: 255
+    label: Address Line 1
+    column: 2
+  - fieldName: AddressLine2
+    dataType: String
+    required: false
+    length: 255
+    label: Address Line 2
+    column: 2
+  - fieldName: StateId
+    dataType: Guid
+    required: false
+    label: State
+    column: 2
+    dataSource: State
+  - fieldName: City
+    dataType: Guid
+    required: false
+    label: City
+    column: 2
+    dataSource: City
+  - fieldName: PostalCode
+    dataType: String
+    required: false
+    length: 20
+    label: Postal Code
+    column: 2
+- name: Additional information
+  type: section
+  column: 4
+  fields:
+  - fieldName: Age
+    dataType: numeric
+    required: false
+    label: Age
+    column: 2
+  - fieldName: Qualification
+    dataType: string
+    required: false
+    label: Qualifications
+    column: 2
+    dataSource: Qualification
+  - fieldName: Specialisation
+    dataType: string
+    required: false
+    label: Specialisations
+    column: 2
+    dataSource: Specialisation
+  - fieldName: StaffCode
+    dataType: string
+    required: false
+    label: Staff Code
+    column: 2
+  - fieldName: Notes
+    dataType: string
+    required: false
+    label: Notes
+    column: 4

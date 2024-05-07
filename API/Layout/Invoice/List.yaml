@@ -1,0 +1,51 @@
+grid:
+  cardTitle:
+    fields:
+    - fieldName: Name
+      dataType: String
+      label: Name
+      column: 2
+  cardDetail:
+    fields:
+    - fieldName: VisitId
+      dataType: guid
+      label: Visit
+      column: 2
+      dataSource: Visit
+    - fieldName: PatientId
+      dataType: guid
+      label: Patient
+      column: 2
+      dataSource: Patient
+    - fieldName: GrossAmount
+      dataType: numeric
+      label: Gross Amount
+      column: 2
+    - fieldName: NetAmount
+      dataType: numeric
+      label: Net Amount
+      column: 2
+  cardStatus:
+    fields:
+    - fieldName: InvoiceDate
+      dataType: DateTime
+      label: Invoice Date
+      column: 2
+    - fieldName: DueDate
+      dataType: DateTime
+      label: Due Date
+      column: 2
+filter:
+  fields:
+  - fieldName: Name
+    dataType: String
+    label: Name
+    column: 2
+  - fieldName: InvoiceDate
+    dataType: DateTime
+    label: Invoice Date
+    column: 2
+  - fieldName: DueDate
+    dataType: DateTime
+    label: Due Date
+    column: 2

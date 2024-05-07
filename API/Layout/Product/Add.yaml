@@ -1,0 +1,65 @@
+- name: General details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Description
+    dataType: string
+    required: false
+    length: 255
+    label: Description
+    column: 2
+  - fieldName: ProductCategory
+    dataType: Guid
+    required: false
+    label: Product Category
+    column: 2
+    dataSource: ProductCategory
+  - fieldName: ProductType
+    dataType: Numeric
+    required: false
+    label: Product Type
+    column: 2
+- name: Pricing details
+  type: section
+  column: 4
+  fields:
+  - fieldName: SellingPrice
+    dataType: Numeric
+    required: false
+    label: Selling Price
+    column: 2
+  - fieldName: GstPercentage
+    dataType: Numeric
+    required: false
+    label: GST Percentage
+    column: 2
+  - fieldName: BasePrice
+    dataType: Numeric
+    required: false
+    label: Base Price
+    column: 2
+  - fieldName: ReOrderLevel
+    dataType: Numeric
+    required: false
+    label: Reorder Level
+    column: 2
+- name: Stock details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Qoh
+    dataType: Numeric
+    required: false
+    label: QOH
+    column: 2
+  - fieldName: ReOrderQuantity
+    dataType: Numeric
+    required: false
+    label: Reorder Quantity
+    column: 2

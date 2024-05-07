@@ -1,0 +1,128 @@
+- name: Personal details
+  type: section
+  column: 2
+  fields:
+  - fieldName: Name
+    dataType: String
+    required: true
+    length: 100
+    label: Name
+    column: 2
+  - fieldName: Patient
+    dataType: guid
+    required: false
+    label: Patient
+    column: 2
+    dataSource: Patient
+  - fieldName: Doctor
+    dataType: guid
+    required: false
+    label: Doctor
+    column: 2
+    dataSource: Doctor
+  - fieldName: Location
+    dataType: guid
+    required: false
+    label: Location
+    column: 2
+  - fieldName: Contact
+    dataType: guid
+    required: false
+    label: Contact
+    column: 2
+  - fieldName: Appointment
+    dataType: guid
+    required: false
+    label: Appointment
+    column: 2
+    dataSource: Appointment
+- name: Additional details
+  type: section
+  column: 2
+  fields:
+  - fieldName: VisitStartDate
+    dataType: DateTime
+    required: false
+    label: Visit Start Date
+    column: 2
+  - fieldName: VisitCloseDate
+    dataType: DateTime
+    required: false
+    label: Visit Close Date
+    column: 2
+  - fieldName: PreviousVisitId
+    dataType: guid
+    required: false
+    label: Previous Visit
+    column: 2
+  - fieldName: DayVisit
+    dataType: guid
+    required: false
+    label: Day Visit
+    column: 2
+  - fieldName: VisitChiefComplaint
+    dataType: guid
+    required: false
+    label: Visit Chief Complaint
+    column: 2
+  - fieldName: VisitDiagnosis
+    dataType: guid
+    required: false
+    label: Visit Diagnosis
+    column: 2
+  - fieldName: VisitGuideline
+    dataType: guid
+    required: false
+    label: Visit Guideline
+    column: 2
+  - fieldName: VisitVitalTemplateParameter
+    dataType: guid
+    required: false
+    label: Visit Vital Template Parameter
+    column: 2
+  - fieldName: VisitInvestigation
+    dataType: guid
+    required: false
+    label: Visit Investigation
+    column: 2
+  - fieldName: VisitTypeId
+    dataType: guid
+    required: false
+    label: Visit Type
+    column: 2
+  - fieldName: VisitModeId
+    dataType: guid
+    required: false
+    label: Visit Mode
+    column: 2
+  - fieldName: Invoice
+    dataType: guid
+    required: false
+    label: Invoice
+    column: 2
+    dataSource: Invoice
+  - fieldName: VisitClinicalPrintableNotes
+    dataType: String
+    required: false
+    label: Visit Clinical Printable Notes
+    column: 4
+- name: Additional details
+  type: section
+  column: 4
+  fields:
+  - fieldName: Dispenses
+    dataType: guid
+    required: false
+    label: Dispenses
+    column: 2
+    dataSource: Dispense
+  - fieldName: VisitReferralNotes
+    dataType: String
+    required: false
+    label: Visit Referral Notes
+    column: 2
+  - fieldName: VisitMedicalCertificates
+    dataType: guid
+    required: false
+    label: Visit Medical Certificates
+    column: 2
